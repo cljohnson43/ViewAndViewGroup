@@ -28,12 +28,12 @@ Gradle executes a build in three phases:
 5. **Explain each of the following view dimension measurement types :
 sp, dp, px, pt, in, mm?**
 
-sp - Scale independent pixel - A unit that is based on the pixel density of the screen and the user's font size preference.
-dp - Density independent pixel - A unit that is based on the pixel density of the screen. The dp is relative to a 160 dpi screen.
-px - Corresponds to a screen pixel
-pt - Stands for points and corresponds to 1/72 of an inch based on screen size
-in - Corresponds to actual screen size in inches
-mm - Corresponds to actual screen size in millimeters
+    * sp - Scale independent pixel - A unit that is based on the pixel density of the screen and the user's font size preference.
+    * dp - Density independent pixel - A unit that is based on the pixel density of the screen. The dp is relative to a 160 dpi screen.
+    * px - Corresponds to a screen pixel
+    * pt - Stands for points and corresponds to 1/72 of an inch based on screen size
+    * in - Corresponds to actual screen size in inches
+    * mm - Corresponds to actual screen size in millimeters
 
 ## Coding Problems
 

@@ -34,3 +34,6 @@ mm -
 ## Coding Problems
 
 Write an application that will take a user input, reverse the string entered, and display it to a textview. Play with different attributes for the views.
+
+### Screen Capture
+![Screen Capture](/app/main/res/img/ViewAndViewGroup.png)

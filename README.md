@@ -19,17 +19,20 @@ References: [Reflection in Java](https://www.geeksforgeeks.org/reflection-in-jav
 
 4. **How does gradle work behind the scene.**
 
-
+Gradle executes a build in three phases:
+    * Initialization - the build environment is set up and the build script is evaluated to determine what projects are needed to perform the user's task.
+    * Configuration - The tasks needed for to perform the user's task are identified, then the task graph is built, finally the order that the tasks need to be performed is determined.
+    * Execution - The tasks are executed and the project is built.
 
 5. **Explain each of the following view dimension measurement types :
 sp, dp, px, pt, in, mm?**
 
-sp -
-dp -
-px -
-pt -
-in -
-mm -
+sp - Scale independent pixel - A unit that is based on the pixel density of the screen and the user's font size preference.
+dp - Density independent pixel - A unit that is based on the pixel density of the screen. The dp is relative to a 160 dpi screen.
+px - Corresponds to a screen pixel
+pt - Stands for points and corresponds to 1/72 of an inch based on screen size
+in - Corresponds to actual screen size in inches
+mm - Corresponds to actual screen size in millimeters
 
 ## Coding Problems
 
